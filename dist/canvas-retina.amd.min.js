@@ -1,5 +1,5 @@
 /*!
- * canvas-retina v1.0.0
+ * canvas-retina v1.0.1
  * (c) 2019 Nicole Wong
  * Released under the MIT License.
  */
