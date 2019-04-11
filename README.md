@@ -2,10 +2,10 @@
 
 you can see the HD canvas
 
-use for
+## use for
 
-[source -->](https://github.com/nicoleffect/point-plot)
-[source -->](https://github.com/nicoleffect/simple-circle-progress)
+[source1 -->](https://github.com/nicoleffect/point-plot)
+[source2-->](https://github.com/nicoleffect/simple-circle-progress)
 
 ## examples
 
@@ -14,8 +14,6 @@ use for
 <canvas id="canvas"></canvas>
 ```
 ```
-// js
-
 // npm install canvas-retina
 import canvasRetina from 'canvas-retina'
 
@@ -30,8 +28,7 @@ const {
 <script src="https://github.com/nicoleffect/canvas-retina/dist/canvas-retina.iife.min.js"></script>
 canvasRetina(document.getElementById('canvas))
 ```
-## mode
-
+## All modes
 ```
 amd、cjs、es、iife、umd
 ```
