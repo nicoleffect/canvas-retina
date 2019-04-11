@@ -28,7 +28,9 @@ const {
 <script src="https://github.com/nicoleffect/canvas-retina/dist/canvas-retina.iife.min.js"></script>
 
 canvasRetina(document.getElementById('canvas))
+
 ```
+
 ## All modes
 ```
 amd、cjs、es、iife、umd
