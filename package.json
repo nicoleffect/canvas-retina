@@ -1,7 +1,7 @@
 {
   "name": "canvas-retina",
   "version": "1.0.0",
-  "description": "dot and line, dots to dots connect",
+  "description": "you can see the HD canvas",
   "scripts": {
     "dev": "rollup -c --environment NODE_ENV:dev -w",
     "test": "rollup -c --environment NODE_ENV:test",

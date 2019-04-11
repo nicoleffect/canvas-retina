@@ -31,7 +31,7 @@ canvasRetina(document.getElementById('canvas))
 
 ```
 
-## All modes
+## all modes
 ```
 amd、cjs、es、iife、umd
 ```
