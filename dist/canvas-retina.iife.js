@@ -1,5 +1,5 @@
 /*!
- * canvas-retina v1.0.1
+ * canvas-retina v1.0.2
  * (c) 2019 Nicole Wong
  * Released under the MIT License.
  */
@@ -27,6 +27,7 @@ var canvasRetina = (function () {
     ctx.scale(pixelRatio, pixelRatio);
     ctx.translate(1 / pixelRatio, 1 / pixelRatio);
     return {
+      pixelRatio: pixelRatio,
       ctx: ctx,
       rect: rect
     };

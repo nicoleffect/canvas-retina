@@ -18,6 +18,7 @@ you can see the HD canvas
 import canvasRetina from 'canvas-retina'
 
 const {
+  pixelRatio, // value of devicePixelRatio / backingStore, if you need this
   ctx, // object of canvas dom getContext('2d'), if you need this
   rect // object of canvas dom getBoundingClientRect(), if you need this
 } = canvasRetina(document.getElementById('canvas'))

@@ -18,6 +18,7 @@ function canvasRetina (canvas) {
   ctx.scale(pixelRatio, pixelRatio)
   ctx.translate(1 / pixelRatio, 1 / pixelRatio)
   return {
+    pixelRatio,
     ctx,
     rect
   }
