@@ -1,6 +1,6 @@
 {
   "name": "canvas-retina",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "you can see the HD canvas",
   "scripts": {
     "dev": "rollup -c --environment NODE_ENV:dev -w",
