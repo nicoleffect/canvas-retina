@@ -13,9 +13,10 @@ you can see the HD canvas
 // html
 <canvas id="canvas"></canvas>
 ```
+
 ```
-// npm install canvas-retina
-import canvasRetina from 'canvas-retina'
+// npm install @nicoleffect/canvas-retina
+import canvasRetina from '@nicoleffect/canvas-retina'
 
 const {
   pixelRatio, // value of devicePixelRatio / backingStore, if you need this
@@ -24,15 +25,18 @@ const {
 } = canvasRetina(document.getElementById('canvas'))
 
 ```
+
 ```
 // or
-<script src="https://github.com/nicoleffect/canvas-retina/dist/canvas-retina.iife.min.js"></script>
-
+<script src="https://nicoleffect.github.io/canvas-retina/dist/canvas-retina.iife.min.js"></script>
+<script>
 canvasRetina(document.getElementById('canvas'))
-
+...
+</script>
 ```
 
 ## all modes
+
 ```
 amd、cjs、es、iife、umd
 ```

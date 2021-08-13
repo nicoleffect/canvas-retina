@@ -33,7 +33,7 @@ const copyright = new Date().getFullYear() > 2019 ? '2019-' + new Date().getFull
 const banner =
   '/*!\n' +
   ` * ${name} v${version}\n` +
-  ` * (c) ${copyright} Nicole Wong\n` +
+  ` * (c) ${copyright} nicoleffect\n` +
   ' * Released under the MIT License.\n' +
   ' */\n' +
   '\n' +
