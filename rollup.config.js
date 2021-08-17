@@ -33,7 +33,7 @@ const copyright = new Date().getFullYear() > 2019 ? '2019-' + new Date().getFull
 const banner =
   '/*!\n' +
   ` * ${name} v${version}\n` +
-  ` * (c) ${copyright} nicoleffect\n` +
+  ` * (c) ${copyright} Nicole Wong\n` +
   ' * Released under the MIT License.\n' +
   ' */\n' +
   '\n' +
@@ -47,9 +47,9 @@ const baseOutput = {
 }
 function getOutputs (env) {
   const list = formList[env]
-  if (env === 'publish') {
+  if (env === 'release') {
     return Object.assign({
-      file: `publish/index.js`,
+      file: `lib/index.js`,
       format: list[0]
     }, baseOutput)
     return
