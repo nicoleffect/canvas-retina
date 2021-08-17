@@ -28,7 +28,7 @@ const pluginsList = {
   })]
 }
 
-const copyright = new Date().getFullYear() > 2019 ? '2019-' + new Date().getFullYear() : 2019
+const copyright = new Date().getFullYear() > 2021 ? '2021-' + new Date().getFullYear() : 2021
 
 const banner =
   '/*!\n' +
