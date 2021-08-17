@@ -13,7 +13,7 @@ const formList = {
   dev: ['iife'],
   test: ['amd', 'cjs', 'es', 'iife', 'umd'],
   prod: ['amd', 'cjs', 'es', 'iife', 'umd'],
-  publish: ['es']
+  release: ['es']
 }
 const pluginsList = {
   dev: [],
