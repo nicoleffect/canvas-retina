@@ -60,17 +60,20 @@ function getOutputs (env) {
     suffix = '.min'
     isMap = true
   }
-  let arr = []
+  const outputArr = []
+  const nameArr = name.split('/')
+  const distName = nameArr[nameArr.length-1]
+
   for (let i of list) {
     let item = {
-      file: `dist/canvas-retina.${i}${suffix}.js`,
+      file: `dist/${distName}.${i}${suffix}.js`,
       format: i,
-      name: 'canvasRetina',
+      name: camelize(distName),
       sourcemap: isMap
     }
-    arr.push(Object.assign(item, baseOutput))
+    outputArr.push(Object.assign(item, baseOutput))
   }
-  return arr
+  return outputArr
 }
 
 const basePlugins = [
@@ -102,5 +105,11 @@ const config = {
   watch: {
     exclude: 'node_modules/**'
   }
+}
+
+function camelize(str) {
+  return str.replace(/-(\w)/g, function(_, c) {
+      return c ? c.toUpperCase() : ''
+  })
 }
 export default config
