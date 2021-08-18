@@ -45,6 +45,14 @@ const banner =
 const baseOutput = {
   banner: banner
 }
+
+// 横杆转驼峰
+function camelize(str) {
+  return str.replace(/-(\w)/g, function(_, c) {
+      return c ? c.toUpperCase() : ''
+  })
+}
+
 function getOutputs (env) {
   const list = formList[env]
   if (env === 'release') {
@@ -107,9 +115,4 @@ const config = {
   }
 }
 
-function camelize(str) {
-  return str.replace(/-(\w)/g, function(_, c) {
-      return c ? c.toUpperCase() : ''
-  })
-}
 export default config
