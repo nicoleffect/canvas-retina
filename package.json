@@ -1,6 +1,6 @@
 {
   "name": "@nicoleffect/canvas-retina",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "you can see the HD canvas",
   "scripts": {
     "dev": "rollup -c --environment NODE_ENV:dev -w",
